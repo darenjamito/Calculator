@@ -8,10 +8,14 @@ def subtract(x, y):
 
 
 #Multiply
-
+def multiply(x, y):
+    return x * y
 
 #Divide
-
+def divide(x, y):
+    if y == 0:
+        return "Cannot divide by zero"
+    return x / y
 
 
 #Main
